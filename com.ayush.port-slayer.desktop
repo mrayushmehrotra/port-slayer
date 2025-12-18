@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Port Slayer
+Comment=Kill processes and manage system resources with ease
+Exec=port-slayer
+Icon=com.ayush.port-slayer
+Categories=Utility;Network;
+StartupNotify=true
+StartupWMClass=port-slayer

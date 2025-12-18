@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.ayush.port-slayer</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Port Slayer</name>
+  <summary>Kill processes and manage system resources with ease</summary>
+  <description>
+    <p>Port Slayer is a powerful system process manager that helps you monitor, search, and terminate running processes on your system. Built with modern web technologies (Tauri, React, TypeScript) for a fast and responsive user experience.</p>
+    <p>Key Features:</p>
+    <ul>
+      <li>Real-time process monitoring with live status updates</li>
+      <li>Advanced search and filtering by process name, PID, command, or port</li>
+      <li>Quick process termination with a single click</li>
+      <li>Filter processes by running/stopped status</li>
+      <li>Clean, intuitive interface with keyboard shortcuts</li>
+      <li>Cross-platform support (Linux, Windows, macOS)</li>
+      <li>Lightweight and fast native performance</li>
+    </ul>
+    <p>Perfect for developers, system administrators, and power users who need to quickly identify and manage system processes, especially when dealing with stuck applications or port conflicts.</p>
+  </description>
+  <launchable type="desktop-id">com.ayush.port-slayer.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://example.com/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://github.com/mrayushmehrotra/port-slayer</url>
+  <url type="bugtracker">https://github.com/mrayushmehrotra/port-slayer/issues</url>
+  <developer_name>Ayush</developer_name>
+  <releases>
+    <release version="0.1.0" date="2024-01-01">
+      <description>
+        <p>Initial release</p>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1" />
+</component>

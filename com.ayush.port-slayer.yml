@@ -1,0 +1,33 @@
+app-id: com.ayush.port-slayer
+runtime: org.freedesktop.Platform
+runtime-version: '24.08'
+sdk: org.freedesktop.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.rust-stable
+  - org.freedesktop.Sdk.Extension.node20
+command: port-slayer
+finish-args:
+  - --share=network
+  - --share=ipc
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --device=dri
+  - --filesystem=home
+modules:
+  - name: port-slayer
+    buildsystem: simple
+    build-options:
+      append-path: /usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/node20/bin
+      env:
+        CARGO_HOME: /run/build/port-slayer/cargo
+        npm_config_cache: /run/build/port-slayer/npm-cache
+    build-commands:
+      - npm install
+      - npm run tauri build
+      - install -Dm755 src-tauri/target/release/port-slayer -t /app/bin/
+      - install -Dm644 src-tauri/icons/128x128.png /app/share/icons/hicolor/128x128/apps/com.ayush.port-slayer.png
+      - install -Dm644 com.ayush.port-slayer.desktop -t /app/share/applications/
+      - install -Dm644 com.ayush.port-slayer.metainfo.xml -t /app/share/metainfo/
+    sources:
+      - type: dir
+        path: .
