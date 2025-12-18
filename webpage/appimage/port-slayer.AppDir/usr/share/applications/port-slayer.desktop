@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=
+Comment=A Tauri App
+Exec=port-slayer
+StartupWMClass=port-slayer
+Icon=port-slayer
+Name=port-slayer
+Terminal=false
+Type=Application
