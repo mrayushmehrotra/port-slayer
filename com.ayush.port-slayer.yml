@@ -12,7 +12,7 @@ finish-args:
   - --socket=fallback-x11
   - --socket=wayland
   - --device=dri
-  - --filesystem=home
+  - --filesystem=host
 modules:
   - name: port-slayer
     buildsystem: simple
@@ -29,5 +29,7 @@ modules:
       - install -Dm644 com.ayush.port-slayer.desktop -t /app/share/applications/
       - install -Dm644 com.ayush.port-slayer.metainfo.xml -t /app/share/metainfo/
     sources:
-      - type: dir
-        path: .
+      - type: git
+        url: https://github.com/mrayushmehrotra/port-slayer.git
+        tag: v0.1.0
+        commit: 8e9a0e890261da61bc431edb575fbe64093f23e4
