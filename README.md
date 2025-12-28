@@ -8,7 +8,6 @@
   ![Rust](https://img.shields.io/badge/Rust-2021-000000?style=for-the-badge&logo=rust&logoColor=white)
   ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 </div>
-  <a href="https://www.youtube.com/watch?v=eUua5GfjaEQ">Showcase Video</a>
 
 ---
 
