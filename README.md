@@ -1,13 +1,26 @@
 <div align="center">
-  <h1>🗡️ Port Slayer</h1>
-  <p><strong>Kill occupied port processes quickly and boost your developer workflow</strong></p>
-  <img src="./public/website.png" width="600" alt="Port Slayer Logo" />
-  ![Tauri](https://img.shields.io/badge/Tauri-2.0-24C8D8?style=for-the-badge&logo=tauri&logoColor=white)
-  ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-  ![Rust](https://img.shields.io/badge/Rust-2021-000000?style=for-the-badge&logo=rust&logoColor=white)
-  ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+# 🗡️ Port Slayer
+
+**Kill occupied port processes instantly and boost your developer workflow**
+
+<img src="./public/website.png" width="600" alt="Port Slayer Screenshot" />
+
+<br/>
+
+[![Tauri](https://img.shields.io/badge/Tauri-2.0-24C8D8?style=for-the-badge&logo=tauri&logoColor=white)](https://tauri.app/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Rust](https://img.shields.io/badge/Rust-2021-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+<br/>
+
+🎥 **[Watch the Showcase Video](https://www.youtube.com/watch?v=eUua5GfjaEQ)**
+
 </div>
+
+---
 
 ---
 
