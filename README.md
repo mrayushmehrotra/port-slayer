@@ -2,13 +2,13 @@
   <h1>🗡️ Port Slayer</h1>
   <p><strong>Kill occupied port processes quickly and boost your developer workflow</strong></p>
   <img src="./public/website.png" width="600" alt="Port Slayer Logo" />
-  <a href="https://www.youtube.com/watch?v=eUua5GfjaEQ">Showcase Video</a>
   ![Tauri](https://img.shields.io/badge/Tauri-2.0-24C8D8?style=for-the-badge&logo=tauri&logoColor=white)
   ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
   ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
   ![Rust](https://img.shields.io/badge/Rust-2021-000000?style=for-the-badge&logo=rust&logoColor=white)
   ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 </div>
+  <a href="https://www.youtube.com/watch?v=eUua5GfjaEQ">Showcase Video</a>
 
 ---
 
