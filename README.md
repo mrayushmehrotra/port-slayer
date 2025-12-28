@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="./public/website.png" width="600" alt="Port Slayer Logo" />
   <h1>🗡️ Port Slayer</h1>
   <p><strong>Kill occupied port processes quickly and boost your developer workflow</strong></p>
+  <img src="./public/website.png" width="600" alt="Port Slayer Logo" />
   
   ![Tauri](https://img.shields.io/badge/Tauri-2.0-24C8D8?style=for-the-badge&logo=tauri&logoColor=white)
   ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
