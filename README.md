@@ -2,7 +2,7 @@
   <h1>🗡️ Port Slayer</h1>
   <p><strong>Kill occupied port processes quickly and boost your developer workflow</strong></p>
   <img src="./public/website.png" width="600" alt="Port Slayer Logo" />
-  
+  <a href="https://www.youtube.com/watch?v=eUua5GfjaEQ">Showcase Video</a>
   ![Tauri](https://img.shields.io/badge/Tauri-2.0-24C8D8?style=for-the-badge&logo=tauri&logoColor=white)
   ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
   ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -39,11 +39,11 @@ Built with **Tauri 2.0**, **React 19**, and **Rust**, Port Slayer combines the b
 
 Choose the package for your Linux distribution:
 
-| Format | Download |
-|--------|----------|
-| **AppImage** | [port-slayer.AppImage](https://github.com/mrayushmehrotra/port-slayer/releases) |
-| **Debian/Ubuntu (.deb)** | [port-slayer_0.1.0_amd64.deb](https://github.com/mrayushmehrotra/port-slayer/releases) |
-| **Fedora/RHEL (.rpm)** | [port-slayer-0.1.0.x86_64.rpm](https://github.com/mrayushmehrotra/port-slayer/releases) |
+| Format                   | Download                                                                                |
+| ------------------------ | --------------------------------------------------------------------------------------- |
+| **AppImage**             | [port-slayer.AppImage](https://github.com/mrayushmehrotra/port-slayer/releases)         |
+| **Debian/Ubuntu (.deb)** | [port-slayer_0.1.0_amd64.deb](https://github.com/mrayushmehrotra/port-slayer/releases)  |
+| **Fedora/RHEL (.rpm)**   | [port-slayer-0.1.0.x86_64.rpm](https://github.com/mrayushmehrotra/port-slayer/releases) |
 
 ### Build from Source
 
@@ -86,12 +86,12 @@ npm run tauri:build
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| **Frontend** | React 19, TypeScript, Vite |
-| **Backend** | Rust, Tauri 2.0 |
+| Layer           | Technology                                        |
+| --------------- | ------------------------------------------------- |
+| **Frontend**    | React 19, TypeScript, Vite                        |
+| **Backend**     | Rust, Tauri 2.0                                   |
 | **System Info** | [sysinfo](https://crates.io/crates/sysinfo) crate |
-| **Bundling** | Tauri Bundler (AppImage, DEB, RPM) |
+| **Bundling**    | Tauri Bundler (AppImage, DEB, RPM)                |
 
 ---
 
